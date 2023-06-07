@@ -1,0 +1,45 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    padding-bottom: 20px;
+    color: darkgrey;
+ width: 100%;
+    background: black;
+}
+.navbar-wrapper{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.navbar-wrapper > .container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-wrapper .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+.corousel{
+    height: 500px;
+    margin-bottom: 50px;
+    z-index: 15;
+}
+.courousel .item{
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 700px;
+    min-width: 100%;
+}
